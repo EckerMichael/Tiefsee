@@ -24,10 +24,24 @@ h2 {
   color: #4fd1ff;
 }
 
+/* Anpassungen */
+
+li {
+  margin-bottom: 15px; /* Abstand zwischen <li> Elementen */
+}
+
+br {
+  margin-bottom: 15px; /* Abstand nach jedem <br> */
+}
+
+h3 {
+  margin-top: 20px; /* Abstand vor jedem <h3> */
+}
+
 img {
-  max-width: 100%; /* passt sich der Breite des übergeordneten Elements an */
-  max-height: calc(80vh); /* maximale Höhe beträgt 80 % der viewport height */
-  object-fit: cover; /* hält das Seitenverhältnis */
+  max-width: 100%; 
+  max-height: calc(80vh); 
+  object-fit: cover; 
   border-radius: 12px;
   margin: 15px 0;
   box-shadow: 0 0 20px rgba(0, 200, 255, 0.4);
